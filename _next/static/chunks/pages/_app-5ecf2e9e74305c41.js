@@ -60268,13 +60268,13 @@ For more information, see https://radix-ui.com/primitives/docs/components/${t.do
                   className: "flex flex-row gap-4 p-4",
                   children: [
                     (0, X.jsx)("a", {
-                      href: "https://x.com/M0X_AI",
+                      href: "https:/https://x.com/MoonyAI_eth/M0X_AI",
                       target: "_blank",
                       className: "bg-cyan-400/20 p-2 rounded-xl text-cyan-400",
                       children: (0, X.jsx)(gG.Gh0, { size: 20 }),
                     }),
                     (0, X.jsx)("a", {
-                      href: "https://t.me/mox_ai",
+                      href: "https://t.me/MoonyAI_eth",
                       target: "_blank",
                       className: "bg-cyan-400/20 p-2 rounded-xl text-cyan-400",
                       children: (0, X.jsx)(gG._sG, { size: 20 }),
