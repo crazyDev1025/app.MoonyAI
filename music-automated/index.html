@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Moony AI</title>
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="Moony AI Creative Innovation in the Blockchain Era. AI-Driven Solutions for Blockchain Innovation."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@site" />
+    <meta name="twitter:creator" content="@handle" />
+    <meta property="og:title" content="Moony AI" />
+    <meta
+      property="og:description"
+      content="Moony AI Creative Innovation in the Blockchain Era. AI-Driven Solutions for Blockchain Innovation."
+    />
+    <meta property="og:url" content="https://app.moxai.io" />
+    <meta property="og:image" content="https://app.moxai.io/img/meta_1.png" />
+    <meta property="og:image:alt" content="Moony AI" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="600" />
+    <meta property="og:image" content="https://app.moxai.io/img/meta_2.png" />
+    <meta property="og:image:alt" content="Moony AI" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="900" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:image" content="https://app.moxai.io/img/meta_1.png" />
+    <meta property="og:image" content="https://app.moxai.io/img/meta_2.png" />
+    <meta property="og:site_name" content="Moony AI" />
+    <link rel="canonical" href="https://app.moxai.io" />
+    <link rel="icon" href="https://app.moxai.io/img/logo.png" />
+    <meta name="next-head-count" content="26" />
+    <link
+      rel="preload"
+      href="/_next/static/css/5181df5e4c76cd51.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/5181df5e4c76cd51.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="/_next/static/css/2c511e0919de686b.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="/_next/static/css/2c511e0919de686b.css"
+      data-n-p=""
+    />
+    <noscript data-n-css=""></noscript>
+    <script
+      defer=""
+      nomodule=""
+      src="/_next/static/chunks/polyfills-42372ed130431b0a.js"
+    ></script>
+    <script
+      src="/_next/static/chunks/webpack-71cbe1f98b8ad787.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/framework-e952fed463eb8e34.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/main-3c0724ddafc11c11.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/_app-5ecf2e9e74305c41.js"
+      defer=""
+    ></script>
+    <script src="/_next/static/chunks/66-25c5edfd0ce5046e.js" defer=""></script>
+    <script
+      src="/_next/static/chunks/526-4e12bfe3a57f2ff7.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/554-05e2bff5f2523b82.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/chunks/pages/music-automated-e4b8a47e48735758.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/sedLwzPZUwctCaeLng8qY/_buildManifest.js"
+      defer=""
+    ></script>
+    <script
+      src="/_next/static/sedLwzPZUwctCaeLng8qY/_ssgManifest.js"
+      defer=""
+    ></script>
+  </head>
+  <body class="antialiased">
+    <div id="__next">
+      <style>
+        #nprogress {
+          pointer-events: none;
+        }
+
+        #nprogress .bar {
+          background: #38bdf8;
+
+          position: fixed;
+          z-index: 99999;
+          top: 0;
+          left: 0;
+
+          width: 100%;
+          height: 4px;
+        }
+
+        /* Fancy blur effect */
+        #nprogress .peg {
+          display: block;
+          position: absolute;
+          right: 0px;
+          width: 100px;
+          height: 100%;
+          box-shadow: 0 0 10px #38bdf8, 0 0 5px #38bdf8;
+          opacity: 1;
+
+          -webkit-transform: rotate(3deg) translate(0px, -4px);
+          -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+        }
+
+        /* Remove these to get rid of the spinner */
+        #nprogress .spinner {
+          display: block;
+          position: fixed;
+          z-index: 1031;
+          top: 15px;
+          bottom: auto;
+          right: 15px;
+          left: auto;
+        }
+
+        #nprogress .spinner-icon {
+          width: 18px;
+          height: 18px;
+          box-sizing: border-box;
+
+          border: solid 2px transparent;
+          border-top-color: #38bdf8;
+          border-left-color: #38bdf8;
+          border-radius: 50%;
+
+          -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+        }
+
+        .nprogress-custom-parent {
+          overflow: hidden;
+          position: relative;
+        }
+
+        .nprogress-custom-parent #nprogress .spinner,
+        .nprogress-custom-parent #nprogress .bar {
+          position: absolute;
+        }
+
+        @-webkit-keyframes nprogress-spinner {
+          0% {
+            -webkit-transform: rotate(0deg);
+          }
+          100% {
+            -webkit-transform: rotate(360deg);
+          }
+        }
+        @keyframes nprogress-spinner {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+      <div
+        role="region"
+        aria-label="Notifications (F8)"
+        tabindex="-1"
+        style="pointer-events: none"
+      >
+        <ol
+          tabindex="-1"
+          class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"
+        ></ol>
+      </div>
+      <script>
+        ((e, r, s, u, d, m, l, h) => {
+          let c = document.documentElement,
+            v = ["light", "dark"];
+          function p(i) {
+            (Array.isArray(e) ? e : [e]).forEach((y) => {
+              let k = y === "class",
+                S = k && m ? d.map((f) => m[f] || f) : d;
+              k
+                ? (c.classList.remove(...S), c.classList.add(i))
+                : c.setAttribute(y, i);
+            }),
+              R(i);
+          }
+          function R(i) {
+            h && v.includes(i) && (c.style.colorScheme = i);
+          }
+          function a() {
+            return window.matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light";
+          }
+          if (u) p(u);
+          else
+            try {
+              let i = localStorage.getItem(r) || s,
+                y = l && i === "system" ? a() : i;
+              p(y);
+            } catch (i) {}
+        })("class", "theme", "dark", null, ["light", "dark"], null, true, true);
+      </script>
+      <div class="bg-slate-900">
+        <div
+          style="--sidebar-width: 20rem; --sidebar-width-icon: 3rem"
+          class="group/sidebar-wrapper flex min-h-svh w-full has-[[data-variant=inset]]:bg-sidebar"
+        >
+          <div
+            class="group peer hidden md:block text-sidebar-foreground"
+            data-state="expanded"
+            data-collapsible=""
+            data-variant="sidebar"
+            data-side="left"
+          >
+            <div
+              class="duration-200 relative h-svh w-[--sidebar-width] bg-transparent transition-[width] ease-linear group-data-[collapsible=offcanvas]:w-0 group-data-[side=right]:rotate-180 group-data-[collapsible=icon]:w-[--sidebar-width-icon]"
+            ></div>
+            <div
+              class="duration-200 fixed inset-y-0 z-10 hidden h-svh w-[--sidebar-width] transition-[left,right,width] ease-linear md:flex left-0 group-data-[collapsible=offcanvas]:left-[calc(var(--sidebar-width)*-1)] group-data-[collapsible=icon]:w-[--sidebar-width-icon] group-data-[side=left]:border-r group-data-[side=right]:border-l border-white/20"
+            >
+              <div
+                data-sidebar="sidebar"
+                class="flex h-full w-full flex-col bg-sidebar group-data-[variant=floating]:rounded-lg group-data-[variant=floating]:border group-data-[variant=floating]:border-sidebar-border group-data-[variant=floating]:shadow"
+              >
+                <div
+                  data-sidebar="header"
+                  class="flex flex-col gap-2 p-2 dark:bg-slate-900"
+                ></div>
+                <div
+                  data-sidebar="content"
+                  class="flex min-h-0 flex-1 dark:bg-slate-900 flex-col gap-2 overflow-auto group-data-[collapsible=icon]:overflow-hidden divide-y divide-white/20"
+                >
+                  <div
+                    data-sidebar="group"
+                    class="relative flex w-full min-w-0 flex-col p-2"
+                  >
+                    <div
+                      data-sidebar="group-label"
+                      class="duration-200 flex h-8 shrink-0 items-center rounded-xl px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-mono uppercase"
+                    >
+                      Application
+                    </div>
+                    <div data-sidebar="group-content" class="w-full text-sm">
+                      <ul
+                        data-sidebar="menu"
+                        class="flex w-full min-w-0 flex-col gap-1"
+                      >
+                        <li
+                          data-sidebar="menu-item"
+                          class="group/menu-item relative"
+                        >
+                          <a
+                            data-sidebar="menu-button"
+                            data-size="default"
+                            data-active="false"
+                            class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900"
+                            href="/"
+                            >Overview</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div data-state="open" class="group/collapsible">
+                    <div
+                      data-sidebar="group"
+                      class="relative flex w-full min-w-0 flex-col p-2"
+                    >
+                      <button
+                        type="button"
+                        aria-controls="radix-:Raiqm:"
+                        aria-expanded="true"
+                        data-state="open"
+                        class="duration-200 flex h-8 shrink-0 items-center rounded-xl px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-mono uppercase"
+                        data-sidebar="group-label"
+                      >
+                        Music Ai<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <div data-state="open" id="radix-:Raiqm:">
+                        <div
+                          data-sidebar="group-content"
+                          class="w-full text-sm"
+                        >
+                          <ul
+                            data-sidebar="menu"
+                            class="flex w-full min-w-0 flex-col gap-1"
+                          >
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/music-creation"
+                                  >Custom Music Creation</a
+                                >
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/music-automated"
+                                  >Automated Music Generation</a
+                                >
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/music-editing">Music Editing</a>
+                                <div
+                                  class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-mono uppercase text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2 dark:border-slate-800 dark:focus:ring-slate-300 border-transparent bg-cyan-900 text-cyan-50 hover:bg-cyan-900/80 dark:bg-cyan-400/10 dark:text-cyan-400 dark:hover:bg-cyan-400/20"
+                                >
+                                  Soon
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-state="open" class="group/collapsible">
+                    <div
+                      data-sidebar="group"
+                      class="relative flex w-full min-w-0 flex-col p-2"
+                    >
+                      <button
+                        type="button"
+                        aria-controls="radix-:Reiqm:"
+                        aria-expanded="true"
+                        data-state="open"
+                        class="duration-200 flex h-8 shrink-0 items-center rounded-xl px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-mono uppercase"
+                        data-sidebar="group-label"
+                      >
+                        Image Ai<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <div data-state="open" id="radix-:Reiqm:">
+                        <div
+                          data-sidebar="group-content"
+                          class="w-full text-sm"
+                        >
+                          <ul
+                            data-sidebar="menu"
+                            class="flex w-full min-w-0 flex-col gap-1"
+                          >
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/face-swap">FaceSwap</a>
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/image-generator">Image Generator</a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-state="open" class="group/collapsible">
+                    <div
+                      data-sidebar="group"
+                      class="relative flex w-full min-w-0 flex-col p-2"
+                    >
+                      <button
+                        type="button"
+                        aria-controls="radix-:Riiqm:"
+                        aria-expanded="true"
+                        data-state="open"
+                        class="duration-200 flex h-8 shrink-0 items-center rounded-xl px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-mono uppercase"
+                        data-sidebar="group-label"
+                      >
+                        Video Ai<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <div data-state="open" id="radix-:Riiqm:">
+                        <div
+                          data-sidebar="group-content"
+                          class="w-full text-sm"
+                        >
+                          <ul
+                            data-sidebar="menu"
+                            class="flex w-full min-w-0 flex-col gap-1"
+                          >
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/face-talking">FaceTalking</a>
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/talking-avatar">Talking Avatar</a>
+                                <div
+                                  class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-mono uppercase text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2 dark:border-slate-800 dark:focus:ring-slate-300 border-transparent bg-cyan-900 text-cyan-50 hover:bg-cyan-900/80 dark:bg-cyan-400/10 dark:text-cyan-400 dark:hover:bg-cyan-400/20"
+                                >
+                                  Soon
+                                </div>
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/video-editor">AI Video Editor</a>
+                                <div
+                                  class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-mono uppercase text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-slate-950 focus:ring-offset-2 dark:border-slate-800 dark:focus:ring-slate-300 border-transparent bg-cyan-900 text-cyan-50 hover:bg-cyan-900/80 dark:bg-cyan-400/10 dark:text-cyan-400 dark:hover:bg-cyan-400/20"
+                                >
+                                  Soon
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-state="open" class="group/collapsible">
+                    <div
+                      data-sidebar="group"
+                      class="relative flex w-full min-w-0 flex-col p-2"
+                    >
+                      <button
+                        type="button"
+                        aria-controls="radix-:Rmiqm:"
+                        aria-expanded="true"
+                        data-state="open"
+                        class="duration-200 flex h-8 shrink-0 items-center rounded-xl px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opa] ease-linear focus-visible:ring-2 [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 group-data-[collapsible=icon]:-mt-8 group-data-[collapsible=icon]:opacity-0 font-mono uppercase"
+                        data-sidebar="group-label"
+                      >
+                        Library<svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-chevron-down ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180"
+                        >
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg>
+                      </button>
+                      <div data-state="open" id="radix-:Rmiqm:">
+                        <div
+                          data-sidebar="group-content"
+                          class="w-full text-sm"
+                        >
+                          <ul
+                            data-sidebar="menu"
+                            class="flex w-full min-w-0 flex-col gap-1"
+                          >
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/library/music-creation"
+                                  >Custom Music Creation</a
+                                >
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/library/music-automated"
+                                  >Music Automated</a
+                                >
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/library">Face Swap</a>
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/library/face-talking">Face Talking</a>
+                              </div>
+                            </li>
+                            <li
+                              data-sidebar="menu-item"
+                              class="group/menu-item relative"
+                            >
+                              <div
+                                class="peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-xl p-2 text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 group-data-[collapsible=icon]:!p-2 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:size-4 [&amp;&gt;svg]:shrink-0 hover:text-sidebar-accent-foreground h-8 text-sm hover:bg-slate-900 flex justify-between"
+                                data-sidebar="menu-button"
+                                data-size="default"
+                                data-active="false"
+                              >
+                                <a href="/library/image-generator"
+                                  >Image Generator</a
+                                >
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-sidebar="footer"
+                  class="flex flex-col gap-2 p-2 dark:bg-slate-900"
+                >
+                  <ul
+                    data-sidebar="menu"
+                    class="w-full min-w-0 flex flex-row gap-4 p-4"
+                  >
+                    <a
+                      href="https://x.com/M0X_AI"
+                      target="_blank"
+                      class="bg-cyan-400/20 p-2 rounded-xl text-cyan-400"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="20"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.6874 3.0625L12.6907 8.77425L8.37045 3.0625H2.11328L9.58961 12.8387L2.50378 20.9375H5.53795L11.0068 14.6886L15.7863 20.9375H21.8885L14.095 10.6342L20.7198 3.0625H17.6874ZM16.6232 19.1225L5.65436 4.78217H7.45745L18.3034 19.1225H16.6232Z"
+                        ></path></svg></a
+                    ><a
+                      href="https://t.me/mox_ai"
+                      target="_blank"
+                      class="bg-cyan-400/20 p-2 rounded-xl text-cyan-400"
+                      ><svg
+                        stroke="currentColor"
+                        fill="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 24 24"
+                        height="20"
+                        width="20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.14753 11.8099C7.3949 9.52374 10.894 8.01654 12.6447 7.28833C17.6435 5.20916 18.6822 4.84799 19.3592 4.83606C19.5081 4.83344 19.8411 4.87034 20.0567 5.04534C20.2388 5.1931 20.2889 5.39271 20.3129 5.5328C20.3369 5.6729 20.3667 5.99204 20.343 6.2414C20.0721 9.08763 18.9 15.9947 18.3037 19.1825C18.0514 20.5314 17.5546 20.9836 17.0736 21.0279C16.0283 21.1241 15.2345 20.3371 14.2221 19.6735C12.6379 18.635 11.7429 17.9885 10.2051 16.9751C8.42795 15.804 9.58001 15.1603 10.5928 14.1084C10.8579 13.8331 15.4635 9.64397 15.5526 9.26395C15.5637 9.21642 15.5741 9.03926 15.4688 8.94571C15.3636 8.85216 15.2083 8.88415 15.0962 8.9096C14.9373 8.94566 12.4064 10.6184 7.50365 13.928C6.78528 14.4212 6.13461 14.6616 5.55163 14.649C4.90893 14.6351 3.67265 14.2856 2.7536 13.9869C1.62635 13.6204 0.730432 13.4267 0.808447 12.8044C0.849081 12.4803 1.29544 12.1488 2.14753 11.8099Z"
+                        ></path></svg
+                    ></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <main
+            class="relative flex min-h-svh flex-1 flex-col bg-white dark:bg-slate-900 peer-data-[variant=inset]:min-h-[calc(100svh-theme(spacing.4))] md:peer-data-[variant=inset]:m-2 md:peer-data-[state=collapsed]:peer-data-[variant=inset]:ml-2 md:peer-data-[variant=inset]:ml-0 md:peer-data-[variant=inset]:rounded-xl md:peer-data-[variant=inset]:shadow"
+          >
+            <div class="flex justify-between md:px-10 px-4 py-2">
+              <div class="flex gap-2 self-center">
+                <button data-sidebar="trigger" class="h-7 w-7 mr-1 self-center">
+                  <svg
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    height="25"
+                    width="25"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                    ></path></svg
+                  ><span class="sr-only">Toggle Sidebar</span></button
+                ><a href="/"><img src="/img/logo.png" width="60" alt="" /></a>
+              </div>
+              <div class="self-center">
+                <div class="gap-2 flex">
+                  <button
+                    class="items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300 bg-slate-100 text-slate-900 hover:bg-slate-100/80 dark:bg-slate-800 dark:hover:bg-slate-800/80 h-11 rounded-xl px-8 hidden md:flex dark:text-cyan-400"
+                    type="button"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.6144 17.7956 11.492 15.7854C12.2731 13.9966 13.6789 12.5726 15.4325 11.7942L17.8482 10.7219C18.6162 10.381 18.6162 9.26368 17.8482 8.92277L15.5079 7.88394C13.7092 7.08552 12.2782 5.60881 11.5105 3.75894L10.6215 1.61673C10.2916.821765 9.19319.821767 8.8633 1.61673L7.97427 3.75892C7.20657 5.60881 5.77553 7.08552 3.97685 7.88394L1.63658 8.92277C.868537 9.26368.868536 10.381 1.63658 10.7219L4.0523 11.7942C5.80589 12.5726 7.21171 13.9966 7.99275 15.7854L8.8704 17.7956C9.20776 18.5682 10.277 18.5682 10.6144 17.7956ZM19.4014 22.6899 19.6482 22.1242C20.0882 21.1156 20.8807 20.3125 21.8695 19.8732L22.6299 19.5353C23.0412 19.3526 23.0412 18.7549 22.6299 18.5722L21.9121 18.2532C20.8978 17.8026 20.0911 16.9698 19.6586 15.9269L19.4052 15.3156C19.2285 14.8896 18.6395 14.8896 18.4628 15.3156L18.2094 15.9269C17.777 16.9698 16.9703 17.8026 15.956 18.2532L15.2381 18.5722C14.8269 18.7549 14.8269 19.3526 15.2381 19.5353L15.9985 19.8732C16.9874 20.3125 17.7798 21.1156 18.2198 22.1242L18.4667 22.6899C18.6473 23.104 19.2207 23.104 19.4014 22.6899Z"
+                      ></path></svg
+                    >Top up credit
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="md:px-10 px-4 py-2">
+              <div class="space-y-8">
+                <div class="flex justify-between">
+                  <div class="max-w-3xl space-y-2">
+                    <h1 class="text-3xl font-bold">Music Automated</h1>
+                    <p>
+                      Share your idea, and let our AI automatically generate
+                      music based on your chosen theme and genre. You can also
+                      create instrumental-only music without vocals, tailored to
+                      your needs.
+                    </p>
+                  </div>
+                </div>
+                <div class="md:grid grid-cols-12 bg-slate-800 rounded-xl">
+                  <div class="col-span-4">
+                    <form class="p-4 space-y-4">
+                      <div class="space-y-2">
+                        <div class="flex justify-between">
+                          <label
+                            class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 required"
+                            for="lyrics"
+                            >Song Description</label
+                          >
+                          <div class="">
+                            <p>
+                              0<!-- -->
+                              <!-- -->/199
+                            </p>
+                          </div>
+                        </div>
+                        <div class="bg-cyan-400/10 p-3 rounded-xl">
+                          <p
+                            class="text-sm text-cyan-400 capitalize text-center opacity-100"
+                          >
+                            * Description Min 20 character - Max 199 character
+                          </p>
+                        </div>
+                        <textarea
+                          class="flex min-h-[80px] w-full rounded-xl border border-slate-200 bg-white px-3 py-2 text-base ring-offset-white placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm dark:border-slate-800 dark:bg-slate-950 dark:ring-offset-slate-950 dark:placeholder:text-slate-400 dark:focus-visible:ring-slate-300 h-[300px]"
+                          id="lyrics"
+                          maxlength="199"
+                          minlength="10"
+                          placeholder="Describe the style of music and the topic you want, AI will generate lyrics for you. "
+                          name="lyrics"
+                        ></textarea>
+                      </div>
+                      <div class="space-y-2 bg-slate-950 p-3 rounded-xl">
+                        <div class="flex justify-between">
+                          <div>
+                            <button
+                              type="button"
+                              role="switch"
+                              aria-checked="false"
+                              data-state="unchecked"
+                              value="on"
+                              class="peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-slate-900 data-[state=unchecked]:bg-slate-200 dark:focus-visible:ring-slate-300 dark:focus-visible:ring-offset-slate-950 dark:data-[state=checked]:bg-cyan-400 dark:data-[state=unchecked]:bg-slate-800"
+                              id="instrument"
+                            >
+                              <span
+                                data-state="unchecked"
+                                class="pointer-events-none block h-5 w-5 rounded-full bg-white shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0 dark:bg-slate-950"
+                              ></span></button
+                            ><input
+                              type="checkbox"
+                              aria-hidden="true"
+                              style="
+                                transform: translateX(-100%);
+                                position: absolute;
+                                pointer-events: none;
+                                opacity: 0;
+                                margin: 0;
+                              "
+                              tabindex="-1"
+                              value="on"
+                            />
+                          </div>
+                          <div class="self-center">
+                            <label
+                              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                              for="instrument"
+                              >Instrumental</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="h-[100px]"></div>
+                      <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300 bg-cyan-400 text-cyan-50 hover:bg-cyan-400/90 dark:bg-cyan-400 dark:text-black dark:hover:bg-cyan-400/90 h-10 px-4 py-2 w-full"
+                        disabled=""
+                        type="submit"
+                      >
+                        Generate Music
+                      </button>
+                    </form>
+                  </div>
+                  <div class="col-span-8" id="result">
+                    <div
+                      class="bg-slate-950 min-h-[50vh] md:min-h-full p-4 rounded-r-none md:rounded-r-xl flex items-center justify-center"
+                    >
+                      <div class="space-y-2">
+                        <div
+                          class="self-center flex justify-center text-white/20"
+                        >
+                          <svg
+                            stroke="currentColor"
+                            fill="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            height="60"
+                            width="60"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M16 2L21 7V21.0082C21 21.556 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918C3 2.44405 3.44495 2 3.9934 2H16ZM11 12.05C10.8384 12.0172 10.6712 12 10.5 12C9.11929 12 8 13.1193 8 14.5C8 15.8807 9.11929 17 10.5 17C11.8807 17 13 15.8807 13 14.5V10H16V8H11V12.05Z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <p class="text-center max-w-xl mx-auto">
+                          Utilizes a streaming response system, delivering
+                          results in fast as 1 - 4 minutes. Stable and
+                          watermark-free.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+      {
+        "props": { "pageProps": {} },
+        "page": "/music-automated",
+        "query": {},
+        "buildId": "sedLwzPZUwctCaeLng8qY",
+        "nextExport": true,
+        "autoExport": true,
+        "isFallback": false,
+        "scriptLoader": []
+      }
+    </script>
+  </body>
+</html>
